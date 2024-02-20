@@ -17,7 +17,6 @@
 </template>
 
 <script setup>
-import { ref } from 'vue';
 import { useCounterStore } from '../stores/counter'
 
 const theCounter = useCounterStore()
